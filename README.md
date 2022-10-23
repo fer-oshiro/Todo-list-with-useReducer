@@ -1,2 +1,4 @@
 # Todo-list-with-useReducer
-Created with CodeSandbox
+
+## Descrição
+Simples Webapp para praticar useReducer, com a função de criar, editar e deletar uma tarefa.
