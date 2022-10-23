@@ -1,0 +1,58 @@
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.todo-createdAt {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.todo-title {
+  justify-content: center;
+  display: flex;
+}
+
+.todo-title > input {
+  width: min-content;
+}
+
+.todo-title > label {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.todo-title > input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: rgb(204, 209, 212);
+}
+
+.todo-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-top: 30px;
+  margin-left: auto;
+}
+
+.todo-actions > button {
+  width: inherit;
+}
+
+.todo-actions > button:first-child {
+  background-color: lightcoral;
+}
+
+.todo-actions > button:last-child {
+  background-color: wheat;
+}
